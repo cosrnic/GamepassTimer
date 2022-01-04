@@ -1,0 +1,71 @@
+@font-face {
+    font-family: Panton-BlackCaps;
+    src: url("fonts/Panton-BlackCaps.otf");
+}
+@font-face {
+    font-family: Panton-LightCaps;
+    src: url("fonts/Panton-LightCaps.otf");
+}
+body {
+    background-color: #131313;
+    font-family: 'Panton-BlackCaps';
+    overflow: hidden;
+    
+}
+.text {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    
+}
+.reset {
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    margin-top: 15%;
+}
+.gamepass {
+    font-size: 45px;
+    color: rgb(60, 255, 0);
+    margin-top: 15%;
+    margin-left: 10px;
+    text-shadow: 0px 0px 4px rgb(60, 255, 0);
+}
+.reset2 {
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    margin-top: 15%;
+    margin-left: 10px;
+}
+footer {
+    color: rgb(255, 255, 255);
+    margin: 10% auto;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    opacity: 0.6;
+    
+}
+.credit {
+    color: rgb(0, 195, 255);
+    margin-top: 40%;
+    margin-left: 10px;
+    text-shadow: 0px 0px 5px rgb(0, 195, 255);
+    text-decoration: none; 
+}
+.logo {
+    margin-top:15px;
+    width: 60px;
+    height: 60px;
+    align-items: center;
+}
+.container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+#mycountdown {
+    font-size: 76px;
+    color: rgb(255, 255, 255);
+    padding-top: 2%;
+    text-shadow: 0px 0px 5px #fff;
+}
