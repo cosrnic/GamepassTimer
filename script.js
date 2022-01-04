@@ -1,4 +1,4 @@
-//credit: 
+//credit: https://www.reddit.com/r/jquery/comments/6pn455/looking_for_a_simple_jquery_daily_countdown_timer/
 var myreset = [17,00,00]; // at what time to reset - 19:40:00
 
 // Added myCountDownDiv variable to prevent jquery from walking the DOM o every update
